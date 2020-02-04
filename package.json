@@ -1,0 +1,28 @@
+{
+  "name": "landing_page_yo",
+  "version": "1.0.0",
+  "description": "landing page for CS25 Build Week 1",
+  "main": "sass/mystyles.scss",
+  "dependencies": {
+    "bulma-start": "^0.0.3"
+  },
+  "devDependencies": {
+    "bulma": "^0.8.0",
+    "node-sass": "^4.13.1"
+  },
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url sass/mystyles.scss css/mystyles.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cs25-bw-team1922/landing_page_yo.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cs25-bw-team1922/landing_page_yo/issues"
+  },
+  "homepage": "https://github.com/cs25-bw-team1922/landing_page_yo#readme"
+}
