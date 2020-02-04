@@ -4,10 +4,10 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 
 // Set your brand colors
-$green: #d5f5b6;
+$red: #a7122d;
 $blue: #b5ebf4;
 $brown: #757763;
-$charcoal: #4c4c4c;
+$charcoal: #1b1b1b;
 $beige-light: #D0D1CD;
 $beige-lighter: #EFF0EB;
 
@@ -15,7 +15,7 @@ $beige-lighter: #EFF0EB;
 $family-sans-serif: 'Raleway', sans-serif;
 $dark: $charcoal;
 $light: $beige-lighter;
-$primary: $green;
+$primary: $red;
 $link: $blue;
 $widescreen-enabled: false;
 $fullhd-enabled: false;
@@ -29,6 +29,7 @@ $input-border-color: transparent;
 $input-shadow: none;
 $navbar-background-color: $beige-lighter;
 $title-color: $charcoal;
+$footer-background-color: $primary;
 
 // Import only what you need from Bulma
 @import "../node_modules/bulma/sass/utilities/_all.sass";
