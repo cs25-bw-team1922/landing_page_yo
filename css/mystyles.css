@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
 @keyframes spinAround {
   from {
     transform: rotate(0deg); }
@@ -182,7 +182,7 @@ button,
 input,
 select,
 textarea {
-  font-family: "Nunito", sans-serif; }
+  font-family: "Raleway", sans-serif; }
 
 code,
 pre {
@@ -629,13 +629,13 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   font-weight: 700 !important; }
 
 .is-family-primary {
-  font-family: "Nunito", sans-serif !important; }
+  font-family: "Raleway", sans-serif !important; }
 
 .is-family-secondary {
-  font-family: "Nunito", sans-serif !important; }
+  font-family: "Raleway", sans-serif !important; }
 
 .is-family-sans-serif {
-  font-family: "Nunito", sans-serif !important; }
+  font-family: "Raleway", sans-serif !important; }
 
 .is-family-monospace {
   font-family: monospace !important; }
@@ -2603,7 +2603,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
     font-size: 1.5rem; }
 
 .navbar {
-  background-color: white;
+  background-color: #EFF0EB;
   min-height: 3.25rem;
   position: relative;
   z-index: 30; }
@@ -3222,7 +3222,7 @@ a.navbar-item,
   .navbar-link::after {
     display: none; }
   .navbar-menu {
-    background-color: white;
+    background-color: #EFF0EB;
     box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1);
     padding: 0.5rem 0; }
     .navbar-menu.is-active {
